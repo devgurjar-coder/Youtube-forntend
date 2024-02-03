@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: `https://mern-stack-youtube-backend.onrender.com` });
-// const API = axios.create({ baseURL: `https://youtubeclone5031.herokuapp.com/` });
+const API = axios.create({ baseURL: `https://mern-stack-youtube-backend.onrender.com/` })
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("Profile")) {
