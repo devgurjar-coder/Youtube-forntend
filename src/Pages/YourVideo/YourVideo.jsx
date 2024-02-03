@@ -57,7 +57,7 @@ function YourVideo() {
             CurrentUser ?(<>
           <ShowVideoGrid vids={vids} />
             </>):<>
-            <h3>Plz Login to  Your uploded video list</h3></>
+            <h3>Plz Login to see Your uploded video list</h3></>
           }
         </div>
       </div>
